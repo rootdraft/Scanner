@@ -20,3 +20,6 @@ To ensure all features (DNS resolution and WHOIS lookups) function correctly, in
 ```bash
 sudo apt update
 sudo apt install bash bind9-host whois util-linux
+
+### For Arch Linux:
+sudo pacman -S bash bind whois util-linux
