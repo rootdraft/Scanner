@@ -6,15 +6,15 @@ A professional Bash-based network utility designed to scan global and local DNS 
 **Note:** This project was developed as a collaboration between a human lead and AI. The core logic and script structure were generated and refined by **Google Gemini (AI)** based on specific functional requirements and network scanning logic provided by the user.
 
 ## ✨ Features
-- **Comprehensive DNS List:** Pre-configured with major global providers (Google, Cloudflare, OpenDNS, etc.).
+- **Comprehensive DNS List:** Pre-configured with major global providers.
 - **Real-time Latency Analysis:** Calculates network response time for each server.
-- **Organization Lookup:** Integrates WHOIS data to identify the ISP or Entity owning the IP.
-- **Custom Range Scanning:** Support for user-defined network segments and IP ranges.
+- **Organization Lookup:** Integrates WHOIS data to identify entities.
+- **Custom Range Scanning:** Support for user-defined IP ranges.
 - **Universal Linux Compatibility:** Designed to run on any standard Linux environment.
-- **Result Exporting:** Save your scan reports into formatted text files for later analysis.
+- **Result Exporting:** Save reports into formatted text files.
 
 ## 📋 Prerequisites
-To ensure all features (DNS resolution and WHOIS lookups) function correctly, install the following dependencies based on your package manager:
+Install the following dependencies based on your package manager:
 
 ### For Debian/Ubuntu:
 ```bash
